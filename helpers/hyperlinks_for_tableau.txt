@@ -1,0 +1,34 @@
+
+In Tableau hyperlinks can be added by going to 
+
+Worksheet > Actions > Add Action > Go to URL
+
+EXAMPLES
+
+1. Google: https://www.google.com/search?&q=
+
+2. Lens Scholar (precise match): https://www.lens.org/lens/scholar/search/results?q=%22Azadirachta%20indica%22
+
+3. Lens Scholar (general search): https://www.lens.org/lens/scholar/search/results?q=Azadirachta%20indica
+
+4. Lens Patents: https://www.lens.org/lens/search?q=%22Azadirachta%20indica%22
+
+5. GBIF: https://www.gbif.org/search?q=Azadirachta%20indica
+
+ADD A COUNTRY NAME:
+
+Add a +India at the end of the URL
+
+EXPLANATIONS: 
+
+We normally want a precise search for a species we are interested in. This consists of two or more parts that need to be translated into a form that a database can understand when we search
+
+1. We need quotes for an exact match around a phrase: "Azadirachta indica". We normally just use this expression.
+2. But a programm may add a + to join the two words into a single expression such as "Azadirachta+indica"
+3. This gets translated into %22Azadirachta%20indica%22
+
+When constructing a URL some character such as '"' and + are translated into number and percentage symbols.
+
+" = %22
++ = %20
+

@@ -1,0 +1,12 @@
+# This document provides a general biodiversity query
+# The first query will work anywhere
+# The second query is for use with Lens patents (simply change the country name)
+# In both cases use the Query Text Editor in the search panel
+
+In Lens Scholar use Query Text Editor
+
+"species" OR "genus" OR "family" OR "order" OR "phylum" OR "class" OR "kingdom" OR "tribe" OR "DNA" OR "nucleic" OR "nucleotide" OR "amino" OR "polypeptide" OR "sequence" OR "SEQ ID" OR "protein" OR "proteins" OR "peptides" OR "peptide" OR "enzyme" OR "enzymes" OR "plant" OR "plants" OR "animal" OR "animals" OR "mammal" OR "mammals" OR "mammalian" OR "bacteria" OR "protozoa" OR "virus" OR "viruses" OR "fungi" OR "animalia" OR "archaea" OR "chromista" OR "chromist" OR "chromists" OR "protista" OR "protist" OR "protists" OR "plantae" OR "eukaryotes" OR "eukaryotes" OR "eukaryote" OR "prokarya" OR "prokaryote" OR "prokaryotes" OR "microorganism" OR "microorganisms" OR "organism" OR "organisms" OR "cell" OR "cells" OR "gene" OR "genes" OR "genetic" OR "genome" OR "genomes" OR "viral" OR "biological" OR "biology" OR "strain" or "strains" or "variety" or "varieties"
+
+# A country specific patent query for use in patent searches. In Lens Patent use Query Text Editor
+
+full_text:kenya AND full_text:("species" OR "genus" OR "family" OR "order" OR "phylum" OR "class" OR "kingdom" OR "tribe" OR "DNA" OR "nucleic" OR "nucleotide" OR "amino" OR "polypeptide" OR "sequence" OR "SEQ ID" OR "protein" OR "proteins" OR "peptides" OR "peptide" OR "enzyme" OR "enzymes" OR "plant" OR "plants" OR "animal" OR "animals" OR "mammal" OR "mammals" OR "mammalian" OR "bacteria" OR "protozoa" OR "virus" OR "viruses" OR "fungi" OR "animalia" OR "archaea" OR "chromista" OR "chromist" OR "chromists" OR "protista" OR "protist" OR "protists" OR "plantae" OR "eukaryotes" OR "eukaryotes" OR "eukaryote" OR "prokarya" OR "prokaryote" OR "prokaryotes" OR "microorganism" OR "microorganisms" OR "organism" OR "organisms" OR "cell" OR "cells" OR "gene" OR "genes" OR "genetic" OR "genome" OR "genomes" OR "viral" OR "biological" OR "biology" OR "strain" or "strains" or "variety" or "varieties")
